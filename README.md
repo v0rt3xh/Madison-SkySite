@@ -13,14 +13,18 @@ A website for you to find the places for watching sunrises, sunsets, and night s
 
 Simplified Chinese Version (*Best View*): [Click Here](https://skysite-zh-madison.herokuapp.com/)
 
-English Version (*Translated by Google, a bit altered*): [Click Here](https://translate.google.com/translate?sl=auto&tl=en&hl=zh-CN&u=https://skysite-zh-madison.herokuapp.com&client=webapp)
-
-======
+English Version (*Translated by Google, style a bit altered*): [Click Here](https://translate.google.com/translate?sl=auto&tl=en&hl=zh-CN&u=https://skysite-zh-madison.herokuapp.com&client=webapp)
 
 ## Behind the Scene
 
+**Database Management:** MongoDB
+
+**Front-end Styling:** HTML, CSS, Bootstrap as the framework.
+
+**Back-end Server:** Node.js (express as the framework), Javascript
+
 ## Project Status
-Project is: _in progress_ . I'm still planning to add more features.
+Project is: _in progress_. I'm still planning to add more features.
 
 ## Room for Improvement
 
@@ -34,9 +38,9 @@ To do:
 
 
 ## Acknowledgements
-Give credit here.
+
 - This project was based on [Udemy Course](https://www.udemy.com/course/the-web-developer-bootcamp/).
-- Many thanks to Colt for his wonderful instructions, Cloudinary for the free clouod storage quota, visualcrossing for the API service. 
+- Many thanks to Colt for his wonderful instructions, Cloudinary for the free cloud quota, visualcrossing for the weather API service. 
 
 
 ## Contact
