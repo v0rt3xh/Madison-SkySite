@@ -1,0 +1,39 @@
+<%layout('layout/boilerplate')%>
+<div id="cluster-map" class="cluster-map mb-3"></div>
+    <h1 class="mb-3">Stargaze SkySites</h1>
+    <div class="mb-3">
+        <a class="btn btn-outline-dark" role="button" href='/sites'><span>Show All</span></a>
+        <a class="btn btn-outline-dark" role="button" href='/sites/sunrise'><span>&#9788 Sunrise</span></a>
+        <a class="btn btn-outline-dark" role="button" href='/sites/sunset'><span>&#9789 Sunset</span></a>
+        <a class="btn btn-outline-dark disabled" role="button" href='/sites/stargaze' aria-disabled="true"><span>&#9734 Stargaze</span></a>
+        <hr>
+    </div>
+        <% for (let site of sites) {%> 
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <% if (site.images.length) { %> 
+                        <img class="img-fluid" alt="" src="<%= site.images[0].url%>">
+                        <% } else {%>
+                        <img class="img-fluid" alt="" src="https://res.cloudinary.com/jointsky/image/upload/v1641350715/JointSky/noimage_v3dwlw.png"> 
+                        <% } %>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><%= site.title %> </h5>
+                            <p class="card-text"><%=site.description%></p>
+                            <p class="card-text ">
+                                <small class="text-muted"><%= site.location %> </small>
+                            </p>
+                            <a href="/sites/<%=site._id%>" class="btn btn-primary">Go to <%= site.title%></a>
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div>
+        <% } %> 
+        <script>
+            const mapToken = '<%-process.env.MAPBOX_TOKEN%>';
+            const allSites = { features: <%-JSON.stringify(sites)%> }
+        </script>
+<script src="/javascripts/clusterMap.js"></script>
