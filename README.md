@@ -13,11 +13,11 @@ A website for you to find the places for watching sunrises, sunsets, and night s
 
 **As for January 20, 2023, the following links are no longer valid for use. I develop this application on a free-tier Heroku plan, which is no more available.**
 
-Check out a project page for a preview [here]().
-
 ~~Simplified Chinese Version (*Best View*): [Click Here](https://skysite-zh-madison.herokuapp.com/)~~
 
 ~~English Version (*Translated by Google, style a bit altered*): [Click Here](https://translate.google.com/translate?sl=auto&tl=en&hl=zh-CN&u=https://skysite-zh-madison.herokuapp.com&client=webapp)~~
+
+**Check out the corresponding project page for a preview [here](https://v0rt3xh.github.io/projects/skySites_project/).**
 
 ## Behind the Scene
 
