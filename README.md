@@ -11,9 +11,13 @@ A website for you to find the places for watching sunrises, sunsets, and night s
 
 **User Comments**: :white_check_mark:
 
-Simplified Chinese Version (*Best View*): [Click Here](https://skysite-zh-madison.herokuapp.com/)
+**As for January 20, 2023, the following links are no longer valid for use. I develop this application on a free-tier Heroku plan, which is no more available.**
 
-English Version (*Translated by Google, style a bit altered*): [Click Here](https://translate.google.com/translate?sl=auto&tl=en&hl=zh-CN&u=https://skysite-zh-madison.herokuapp.com&client=webapp)
+Check out a project page for a preview [here]().
+
+~~Simplified Chinese Version (*Best View*): [Click Here](https://skysite-zh-madison.herokuapp.com/)~~
+
+~~English Version (*Translated by Google, style a bit altered*): [Click Here](https://translate.google.com/translate?sl=auto&tl=en&hl=zh-CN&u=https://skysite-zh-madison.herokuapp.com&client=webapp)~~
 
 ## Behind the Scene
 
@@ -39,7 +43,7 @@ To do:
 
 ## Acknowledgements
 
-- This project was based on [Udemy Course](https://www.udemy.com/course/the-web-developer-bootcamp/).
+- This project was based on an [Udemy course](https://www.udemy.com/course/the-web-developer-bootcamp/).
 - Many thanks to Colt for his wonderful instructions, Cloudinary for the free cloud quota, visualcrossing for the weather API service. 
 
 
